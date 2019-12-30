@@ -1,0 +1,1 @@
+*{padding:0;margin:0}:root{--color-gray:#ebece7;--largest-screen:75em;--large-screen:68.5em;--medium-screen:56.25em;--small-screen:37.5em;--smallest-screen:31.25em}*,::after,::before{box-sizing:inherit}html{box-sizing:border-box;font-size:62.5%;background-color:var(--color-gray)}body{font-family:"Open Sans",sans-serif;font-weight:400;line-height:1.6;min-height:98vh}
