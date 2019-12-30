@@ -1,0 +1,32 @@
+<div class="bookItemComponent">
+  <a (click)="clickBook(bookitem.cover.large, bookitem.title)"
+    ><img
+      class="smallImg"
+      [src]="bookitem.cover.small"
+      [alt]="bookitem.title"
+      appLazyLoadImages
+  /></a>
+  <div class="bookdetails">
+    <p>{{ bookitem.title }}</p>
+    <span>By {{ bookitem.author }}</span>
+    <span>ReleaseDate : {{ bookitem.releaseDate }}</span>
+    <span>Pages : {{ bookitem.pages }}</span>
+    <span>Link : <a [href]="bookitem.link" target="_new">shop</a></span>
+  </div>
+</div>
+<!--Modal-->
+<div
+  class="modal modal--align"
+  [ngClass]="{ 'modal--show': popUpOpen === true }"
+  *ngIf="popUpOpen"
+>
+  <div class="modal__container">
+    <a
+      class="modal__close modal__close--x"
+      aria-hidden="true"
+      (click)="closeDialog()"
+      >&#x2715;</a
+    >
+    <img [src]="selectedBookImg" [alt]="selectedBookTitle" />
+  </div>
+</div>

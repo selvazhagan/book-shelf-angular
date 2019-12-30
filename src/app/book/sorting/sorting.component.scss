@@ -1,0 +1,9 @@
+.sortBook {
+  border-bottom: 0.1rem dotted;
+  & li {
+    padding: 0.8rem;
+    & label {
+      padding-left: 0.7rem;
+    }
+  }
+}

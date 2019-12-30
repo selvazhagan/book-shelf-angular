@@ -1,0 +1,21 @@
+<div class="filterBooks">
+  <h4>Filter by no of pages</h4>
+  <form [formGroup]="filterForm" (ngSubmit)="filterPages()">
+    <div class="searchByPages">
+      <label for="searchByPages" class="label">No of </label>
+      <input
+        type="number"
+        name="searchByPages"
+        id="searchByPages"
+        min="1"
+        max="9999"
+        formControlName="searchByPages"
+        (blur)="filterPages()"
+      />
+      <label for="searchByPages" class="label">pages</label>
+    </div>
+    <div class="filterButton">
+      <button type="submit" name="filterPage" class="submit">Submit</button>
+    </div>
+  </form>
+</div>

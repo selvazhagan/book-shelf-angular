@@ -1,0 +1,47 @@
+.content {
+  display: flex;
+  flex-direction: row;
+  & .bookcontent {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    @media only screen and (min-width: 60rem) {
+      display: flex;
+      flex-direction: row;
+    }
+    & .sidetopbar {
+      padding: 1rem;
+      @media only screen and (min-width: 60rem) {
+        flex-basis: 20%;
+      }
+    }
+
+    & .book-shelf-view {
+      padding: 1rem;
+      @media only screen and (min-width: 60rem) {
+        flex-basis: 80%;
+      }
+
+      & .bookitems {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 100%;
+        justify-content: space-around;
+        @media only screen and (min-width: 60rem) {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          width: 70%;
+        }
+
+        & .item {
+          display: flex;
+          @media only screen and (min-width: 60rem) {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<div class="content">
+  <div class="bookcontent">
+    <nav class="sidetopbar">
+      <app-sorting (sortOption)="sortByOption($event)"> </app-sorting>
+      <app-filterbook (filterNumberOfPages)="filterbyPages($event)">
+      </app-filterbook>
+    </nav>
+    <div class="book-shelf-view">
+      <main>
+        <ol class="bookitems">
+          <li
+            class="item"
+            *ngFor="
+              let bookitem of bookItems | bookFilter: filterPageNumber:'pages';
+              trackBy: trackByFunction;
+              let i = index
+            "
+          >
+            <app-book-item [bookitem]="bookitem"></app-book-item>
+          </li>
+        </ol>
+      </main>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,26 @@
+.filterBooks {
+  padding: 0.5rem;
+  border-bottom: 0.1rem dotted;
+
+  & .searchByPages {
+    height: 5rem;
+    padding: 1rem 0;
+    & input {
+      width: 5rem;
+    }
+
+    & label {
+      padding: 0 0.5rem;
+    }
+  }
+  .filterButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    & .submit {
+      padding: 1rem;
+      border-radius: 1rem;
+    }
+  }
+}

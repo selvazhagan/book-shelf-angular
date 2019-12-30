@@ -1,0 +1,85 @@
+div {
+  display: flex;
+  flex-direction: row;
+  width: 40rem;
+
+  @media only screen and (min-width: 50rem) {
+    flex-direction: column;
+    width: 25rem;
+  }
+
+  & img {
+    margin: 1rem;
+    width: 18rem;
+    height: 23.6rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  & .bookdetails {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    & p:after {
+      content: '';
+      display: block;
+      margin: 0 auto;
+      width: 10%;
+      padding: 0.5rem 0;
+      border-bottom: 0.2rem solid red;
+    }
+    @media only screen and (max-width: 50rem) {
+      flex-direction: column;
+      width: 23rem;
+    }
+  }
+
+  & span {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+.modal {
+  display: none;
+}
+.modal--show {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal--align {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+}
+
+.modal__container {
+  position: relative;
+  width: 40rem;
+  height: 40rem;
+  padding: 2rem;
+  background: #fff;
+  & img {
+    width: 33rem;
+    height: 33.6rem;
+  }
+}
+
+.modal__close--x {
+  font-size: 3rem;
+  position: absolute;
+  top: 3px;
+  right: 10px;
+}
+
+.modal__close--x:hover {
+  cursor: pointer;
+}

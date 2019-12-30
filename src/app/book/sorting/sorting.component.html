@@ -1,0 +1,33 @@
+<div>
+  <h4>Sort books By</h4>
+  <div class="sortBook">
+    <ul>
+      <li>
+        <input
+          type="radio"
+          name="sortingBook"
+          (click)="selectSortOption('author')"
+          id="name"
+        />
+        <label for="name">Name</label>
+      </li>
+      <li>
+        <input
+          type="radio"
+          name="sortingBook"
+          (click)="selectSortOption('pages')"
+          id="pages"
+        />
+        <label for="pages">Number of pages</label>
+      </li>
+      <li>
+        <input
+          type="radio"
+          name="sortingBook"
+          (click)="selectSortOption('releaseDate')"
+          id="releaseDate"
+        /><label for="releaseDate">Release date</label>
+      </li>
+    </ul>
+  </div>
+</div>
