@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1577682062957,
+  "timestamp": 1577683551504,
   "index": "https://selvazhagan.github.io/book-shelf-angular/index.html",
   "assetGroups": [
     {
@@ -8,16 +8,16 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://selvazhagan.github.io/book-shelf-angular/5-es2015.6b05b724e1acd5738ab7.js",
-        "https://selvazhagan.github.io/book-shelf-angular/5-es5.6b05b724e1acd5738ab7.js",
+        "https://selvazhagan.github.io/book-shelf-angular/5-es2015.2820c01c654cb28b005b.js",
+        "https://selvazhagan.github.io/book-shelf-angular/5-es5.2820c01c654cb28b005b.js",
         "https://selvazhagan.github.io/book-shelf-angular/favicon.ico",
         "https://selvazhagan.github.io/book-shelf-angular/index.html",
-        "https://selvazhagan.github.io/book-shelf-angular/main-es2015.0c3f83d678fa9910a081.js",
-        "https://selvazhagan.github.io/book-shelf-angular/main-es5.0c3f83d678fa9910a081.js",
+        "https://selvazhagan.github.io/book-shelf-angular/main-es2015.6652cf8b73f7a64e2511.js",
+        "https://selvazhagan.github.io/book-shelf-angular/main-es5.6652cf8b73f7a64e2511.js",
         "https://selvazhagan.github.io/book-shelf-angular/polyfills-es2015.2987770fde9daa1d8a2e.js",
         "https://selvazhagan.github.io/book-shelf-angular/polyfills-es5.ef4b1e1fc703b3ff76e3.js",
-        "https://selvazhagan.github.io/book-shelf-angular/runtime-es2015.1d67e36f1f8302e28c97.js",
-        "https://selvazhagan.github.io/book-shelf-angular/runtime-es5.1d67e36f1f8302e28c97.js",
+        "https://selvazhagan.github.io/book-shelf-angular/runtime-es2015.6b89c73e44384129cb95.js",
+        "https://selvazhagan.github.io/book-shelf-angular/runtime-es5.6b89c73e44384129cb95.js",
         "https://selvazhagan.github.io/book-shelf-angular/styles.cabaf13ebc2a56f82431.css"
       ],
       "patterns": []
@@ -41,8 +41,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://selvazhagan.github.io/book-shelf-angular/5-es2015.6b05b724e1acd5738ab7.js": "bbc6fcadfe5ec06b433a8548466ab33855f15a63",
-    "https://selvazhagan.github.io/book-shelf-angular/5-es5.6b05b724e1acd5738ab7.js": "a4b7c8f851ae889890a21b338d88717ee2e6b26b",
+    "https://selvazhagan.github.io/book-shelf-angular/5-es2015.2820c01c654cb28b005b.js": "bbc6fcadfe5ec06b433a8548466ab33855f15a63",
+    "https://selvazhagan.github.io/book-shelf-angular/5-es5.2820c01c654cb28b005b.js": "a4b7c8f851ae889890a21b338d88717ee2e6b26b",
     "https://selvazhagan.github.io/book-shelf-angular/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "https://selvazhagan.github.io/book-shelf-angular/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "https://selvazhagan.github.io/book-shelf-angular/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -52,13 +52,13 @@
     "https://selvazhagan.github.io/book-shelf-angular/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://selvazhagan.github.io/book-shelf-angular/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "https://selvazhagan.github.io/book-shelf-angular/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://selvazhagan.github.io/book-shelf-angular/index.html": "c4837ecb5fcfb58c1fed04e10502851f99473753",
-    "https://selvazhagan.github.io/book-shelf-angular/main-es2015.0c3f83d678fa9910a081.js": "7736983a3c0b3d95047817bd31ccc1d2df46e807",
-    "https://selvazhagan.github.io/book-shelf-angular/main-es5.0c3f83d678fa9910a081.js": "04ba0ae7607bbb1e72fe57ee4d250b28c7f8041e",
+    "https://selvazhagan.github.io/book-shelf-angular/index.html": "09bb96585d02bf28a200a098d471456d035e5c7d",
+    "https://selvazhagan.github.io/book-shelf-angular/main-es2015.6652cf8b73f7a64e2511.js": "02d7c23f1cd1bb6eaa5b177654bb4892f37e2611",
+    "https://selvazhagan.github.io/book-shelf-angular/main-es5.6652cf8b73f7a64e2511.js": "0f2e5c0e7f01dd3c67ae277e3aa5c39b8ff1ad67",
     "https://selvazhagan.github.io/book-shelf-angular/polyfills-es2015.2987770fde9daa1d8a2e.js": "cf5cbfa9134716054fb479ab21362146cdf1f2ff",
     "https://selvazhagan.github.io/book-shelf-angular/polyfills-es5.ef4b1e1fc703b3ff76e3.js": "6bff0c03e05bb347d213ad1b3674045eb892d189",
-    "https://selvazhagan.github.io/book-shelf-angular/runtime-es2015.1d67e36f1f8302e28c97.js": "c03e84353f05c8abe03b8eeb32a3fa5b6e2520fc",
-    "https://selvazhagan.github.io/book-shelf-angular/runtime-es5.1d67e36f1f8302e28c97.js": "c84239c56c1583bae2f92e65c0b371d7c8169886",
+    "https://selvazhagan.github.io/book-shelf-angular/runtime-es2015.6b89c73e44384129cb95.js": "0301f5d241d26459086f84d0e42c0112293bbdd9",
+    "https://selvazhagan.github.io/book-shelf-angular/runtime-es5.6b89c73e44384129cb95.js": "3a95874781e3f823c9b4882e6ce4e78d9cc39cb2",
     "https://selvazhagan.github.io/book-shelf-angular/styles.cabaf13ebc2a56f82431.css": "bfd2e31678702aa207068fd7f9dad62ff1f52375"
   },
   "navigationUrls": [
